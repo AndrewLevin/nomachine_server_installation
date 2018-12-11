@@ -6,3 +6,4 @@
 [amlevin@lxplus043 ~]$ ssh amlevin3       
 [amlevin@amlevin3 ~]$ sudo yum install emacs
 [amlevin@amlevin3 ~]$ sudo rpm -i nomachine_6.4.6_1_x86_64.rpm
+[amlevin@amlevin3 ~]$ sudo yum group install "GNOME Desktop"
