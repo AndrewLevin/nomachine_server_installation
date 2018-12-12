@@ -6,9 +6,9 @@
 [root@amlevin3 ~]# usermod -d /home/amlevin -s /bin/bash amlevin
 [root@amlevin3 ~]# chown amlevin: /home/amlevin/
 [root@amlevin3 ~]# chmod go-rx /home/amlevin/
-[root@amlevin3 ~]# sudo -u amlevin:amlevin cp /etc/skel/.bashrc /home/amlevin/
-[root@amlevin3 ~]# sudo -u amlevin:amlevin cp /etc/skel/.bash_profile /home/amlevin/
-[root@amlevin3 ~]# sudo -u amlevin:amlevin cp /etc/skel/.bash_logout /home/amlevin/
+[root@amlevin3 ~]# sudo -u amlevin cp /etc/skel/.bashrc /home/amlevin/
+[root@amlevin3 ~]# sudo -u amlevin cp /etc/skel/.bash_profile /home/amlevin/
+[root@amlevin3 ~]# sudo -u amlevin cp /etc/skel/.bash_logout /home/amlevin/
 [root@amlevin3 ~]# exit
 [amlevin@lxplus043 ~]$ ssh amlevin3       
 [amlevin@amlevin3 ~]$ sudo yum install emacs
