@@ -8,5 +8,5 @@
 [root@amlevin3 ~]# useraddcern amlevin
 [root@amlevin3 ~]$ yum install emacs
 [root@amlevin3 ~]$ yum group install gnome-desktop
-[root@amlevin3 ~]$ rpm -i nomachine_6.4.6_1_x86_64.rpm
+[root@amlevin3 ~]$ rpm -i nomachine_8.11.3_4_x86_64.rpm
 ```
