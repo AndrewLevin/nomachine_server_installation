@@ -2,6 +2,10 @@
 
 ```
 [amlevin@lxplus043 ~]$ ssh root@amlevin3
+[root@amlevin3 ~]# yum install cern-krb5-conf
+[root@amlevin3 ~]# yum install useraddcern
+[root@amlevin3 ~]# cern-get-keytab
+[root@amlevin3 ~]# useraddcern amlevin
 [root@amlevin3 ~]# mkdir /home/amlevin/
 [root@amlevin3 ~]# usermod -d /home/amlevin -s /bin/bash amlevin
 [root@amlevin3 ~]# chown amlevin: /home/amlevin/
