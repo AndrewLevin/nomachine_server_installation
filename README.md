@@ -12,4 +12,6 @@
 [root@amlevin3 ~]$ rpm -i nomachine_8.11.3_4_x86_64.rpm
 [root@amlevin3 ~]$ scp amlevin@lxplus.cern.ch:~/password-auth /etc/pam.d/
 [root@amlevin3 ~]$ scp amlevin@lxplus.cern.ch:~/system-auth /etc/pam.d/
+[root@amlevin3 ~]$ scp amlevin@lxplus.cern.ch:~/50-cloud-init.conf /etc/ssh/sshd_config.d/
+[root@amlevin3 ~]$ service sshd restart
 ```
