@@ -10,4 +10,6 @@
 [root@amlevin3 ~]$ yum install emacs
 [root@amlevin3 ~]$ yum group install gnome-desktop
 [root@amlevin3 ~]$ rpm -i nomachine_8.11.3_4_x86_64.rpm
+[root@amlevin3 ~]$ scp amlevin@lxplus.cern.ch:~/password-auth /etc/pam.d/
+[root@amlevin3 ~]$ scp amlevin@lxplus.cern.ch:~/system-auth /etc/pam.d/
 ```
